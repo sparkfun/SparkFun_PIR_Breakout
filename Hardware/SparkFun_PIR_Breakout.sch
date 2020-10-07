@@ -20007,6 +20007,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="166.37" y="11.176" size="2.54" layer="94" font="vector">Andy England</text>
 <text x="109.22" y="132.08" size="2.54" layer="94" font="vector">PIR Breakout</text>
 <text x="109.22" y="129.54" size="1.27" layer="94" font="vector">VIN: 2.3V-4.0V</text>
+<text x="101.6" y="71.12" size="1.27" layer="97" font="vector">This PIR sensor is different 
+between 170 uA (IC-15368)
+and 1uA (IC-15370) versions</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -20141,4 +20144,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

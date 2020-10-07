@@ -198,13 +198,15 @@
 <rectangle x1="10.922" y1="15.3035" x2="12.0015" y2="16.383" layer="29" rot="R90"/>
 <rectangle x1="0.762" y1="15.3035" x2="1.8415" y2="16.383" layer="31" rot="R90"/>
 <dimension x1="12.7" y1="0" x2="12.7" y2="21.59" x3="17.78" y3="10.795" textsize="1.778" layer="47" unit="inch"/>
-<dimension x1="12.7" y1="17.78" x2="0" y2="17.78" x3="6.35" y3="24.13" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="12.7" y1="17.78" x2="0" y2="17.78" x3="6.35" y3="26.67" textsize="1.778" layer="47" unit="inch"/>
 <wire x1="10.9855" y1="7.747" x2="9.7155" y2="7.747" width="0.254" layer="22"/>
 <wire x1="9.7155" y1="7.747" x2="10.033" y2="7.4295" width="0.254" layer="22"/>
 <wire x1="9.7155" y1="7.747" x2="10.033" y2="8.0645" width="0.254" layer="22"/>
 <wire x1="12.0015" y1="9.398" x2="12.0015" y2="10.668" width="0.254" layer="22"/>
 <wire x1="12.0015" y1="10.668" x2="11.684" y2="10.3505" width="0.254" layer="22"/>
 <wire x1="12.0015" y1="10.668" x2="12.319" y2="10.3505" width="0.254" layer="22"/>
+<dimension x1="6.35" y1="19.05" x2="0" y2="19.05" x3="3.175" y3="22.86" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="6.35" y1="19.05" x2="6.35" y2="0" x3="-3.81" y3="9.525" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -2945,8 +2947,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="3.39" y1="5.93" x2="3.39" y2="3.302" width="0.1778" layer="1"/>
 <wire x1="8.146" y1="10.686" x2="3.81" y2="6.35" width="0.1778" layer="1"/>
 <wire x1="3.81" y1="6.35" x2="3.39" y2="5.93" width="0.1778" layer="1"/>
-<wire x1="3.39" y1="3.302" x2="3.67475" y2="3.302" width="0.1778" layer="1"/>
-<wire x1="5.70675" y1="1.27" x2="6.35" y2="1.27" width="0.1778" layer="1"/>
 <wire x1="6.35" y1="1.27" x2="6.35" y2="4.3815" width="0.1778" layer="16"/>
 <wire x1="6.35" y1="4.3815" x2="4.3815" y2="6.35" width="0.1778" layer="16"/>
 <wire x1="3.81" y1="6.35" x2="4.3815" y2="6.35" width="0.1778" layer="16"/>
@@ -2960,13 +2960,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
-<errors>
-<approved hash="19,1,5e11e82f93679849"/>
-<approved hash="19,16,009adc0f4bf10093"/>
-<approved hash="19,16,3c9c21560728d23d"/>
-<approved hash="19,16,cccbdf7a1273400e"/>
-<approved hash="19,16,34bdae255203f79e"/>
-</errors>
 </board>
 </drawing>
 </eagle>

@@ -1,41 +1,40 @@
-SparkFun <PRODUCT NAME>
+SparkFun PIR Breakout - 1&micro;A (EKMB1107112) & 170&micro;A (EKMC4607112K)
 ========================================
 
-![SparkFun Part Name](URL for picture of part)
+<table class="table table-hover table-striped table-bordered">
+    <tr align="center">
+      <td><a href="https://www.sparkfun.com/products/17372"><img src="https://cdn.sparkfun.com/assets/parts/1/6/4/0/4/17372-SparkFun_PIR_Breakout_-_170uA__EKMC4607112K_-01.jpg"></a></td>
+      <td><a href="https://www.sparkfun.com/products/17373"><img src="https://cdn.sparkfun.com/assets/parts/1/6/4/0/5/17373-SparkFun_PIR_Breakout_-_1uA__EKMB1107112_-01.jpg"></a></td>
+    </tr>
+    <tr align="center">
+      <td><a href="https://www.sparkfun.com/products/17372">SparkFun PIR Breakout - 170&micro;A (EKMB1107112)</a></td>
+      <td><a href="https://www.sparkfun.com/products/17373">SparkFun PIR Breakout - 1&micro;A (EKMC4607112K)</a></td>
+    </tr>
+</table>
 
-[*SparkFun Part Name (SKU)*](URL for product on Sparkfun.com)
-
-<Basic description of the part.>
+The SparkFun PIR Breakouts feature low-profile EKM-series PIR sensors from Panasonic for motion sensing projects. The two versions offer motion-sensing options for both battery powered (SparkFun PIR Breakout - 1&micro;A (EKMB1107112)) and continuously powered (SparkFun PIR Breakout - 170&micro;A (EKMC4607112K)) applications. The PIR Breakouts route the three pins on each sensor (VCC, GND & SIG) to a standard 0.1"-spaced header.
 
 Repository Contents
 -------------------
 
 * **/Documentation** - Data sheets, additional product information
-* **/Enclosure** - Enclosure files 
-* **/Firmware** - Example code 
 * **/Hardware** - Eagle design files (.brd, .sch)
-* **/Libraries** - Libraries for use with the <PRODUCT NAME>
 * **/Production** - Production panel files (.brd)
-* **/Software** - Related software for the <PRODUCT NAME>
 
 Documentation
 --------------
-* **[Library](GitHub library URL)** - <LANGUAGE> library for the <PRODUCT NAME>.
-* **[Hookup Guide](Learn.SparkFun URL)** - Basic hookup guide for the <PRODUCT NAME>.
+
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-pir-breakout-hookup-guide)** - Basic hookup guide for the SparkFun Qwiic PIR.
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
-* **[SparkFun Graphical Datasheets](https://github.com/sparkfun/Graphical_Datasheets)** -Graphical Datasheets for various SparkFun products.
 
 Product Versions
 ----------------
-* [Part SKU](part URL)- Basic part and short description here
-* [Retail part SKU](retail URL)- Retail packaging of standard description here
-* [Any other parts this repo covers](any other URLs) - Description of said parts
+* [SEN-17372](https://www.sparkfun.com/products/17372) - 170&micro;A version
+* [SEN-17373](https://www.sparkfun.com/products/17373) - 1&micro;A version
 
 Version History
 ---------------
-* [vExxFxxZxxHxxLxxSxx](URL for tag specific to this version) - Description 
-* [vEyyFyyZyyHyyLyySyy](URL for tag specific to this version) - Description
+* [v10](https://www.sparkfun.com/products/17373) - Initial release of SparkFun Qwiic PIR - 170&micro;A
 
 License Information
 -------------------
@@ -49,5 +48,3 @@ If you have any questions or concerns on licensing, please contact technical sup
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
-_<COLLABORATION CREDIT>_
